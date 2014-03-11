@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="2629766297">
+    <data-source source="LOCAL" name="MySQL - TILE_DEV@localhost" uuid="12853360-57ab-446f-82af-fe83f2268079">
+      <driver-ref>mysql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/TILE_DEV</jdbc-url>
+      <user-name>tileapp</user-name>
+      <user-password>dfdedfc3dfc6dfcfdfcbdfdadfdadf9bdf98df99</user-password>
+      <driver-properties>
+        <property name="zeroDateTimeBehavior" value="convertToNull" />
+        <property name="tinyInt1isBit" value="false" />
+      </driver-properties>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails TileDev: development" uuid="f5447204-8b29-4b92-8c0a-11b2c5882501">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1/TILE_DEV</jdbc-url>
+      <user-name>root</user-name>
+      <user-password>dfdedfc5dfc8dfc3dfcbdfd9</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails TileDev: test" uuid="92b1f5d4-b639-47ad-a93b-cd55e6d02a46">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1/TILE_DEV</jdbc-url>
+      <user-name>root</user-name>
+      <user-password>dfdedfc5dfc8dfc3dfcbdfd9</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails TileDev: production" uuid="558325f7-c9f8-4c9a-b163-1fd9a502cb97">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1/TILE_DEV</jdbc-url>
+      <user-name>root</user-name>
+      <user-password>dfdedfc5dfc8dfc3dfcbdfd9</user-password>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+

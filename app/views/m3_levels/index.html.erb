@@ -1,0 +1,35 @@
+<h1>Listing m3_levels</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Data</th>
+      <th>Active</th>
+      <th>Order</th>
+      <th>Icons</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @m3_levels.each do |m3_level| %>
+      <tr>
+        <td><%= m3_level.name %></td>
+        <td><%= m3_level.data %></td>
+        <td><%= m3_level.active %></td>
+        <td><%= m3_level.order %></td>
+        <td><%= m3_level.icons %></td>
+        <td><%= link_to 'Show', m3_level %></td>
+        <td><%= link_to 'Edit', edit_m3_level_path(m3_level) %></td>
+        <td><%= link_to 'Destroy', m3_level, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New M3 level', new_m3_level_path %>

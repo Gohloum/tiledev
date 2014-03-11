@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @m3_level.name %>
+</p>
+
+<p>
+  <strong>Data:</strong>
+  <%= @m3_level.data %>
+</p>
+
+<p>
+  <strong>Active:</strong>
+  <%= @m3_level.active %>
+</p>
+
+<p>
+  <strong>Order:</strong>
+  <%= @m3_level.order %>
+</p>
+
+<p>
+  <strong>Icons:</strong>
+  <%= @m3_level.icons %>
+</p>
+
+<%= link_to 'Edit', edit_m3_level_path(@m3_level) %> |
+<%= link_to 'Back', m3_levels_path %>

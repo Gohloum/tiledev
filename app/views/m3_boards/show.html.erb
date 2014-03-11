@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @m3_board.name %>
+</p>
+
+<p>
+  <strong>Data:</strong>
+  <%= @m3_board.data %>
+</p>
+
+<%= link_to 'Edit', edit_m3_board_path(@m3_board) %> |
+<%= link_to 'Back', m3_boards_path %>
